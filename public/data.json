@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "playerName": "Shakib Al Hasan",
+    "playerImg": "https://randomuser.me/api/portraits/men/1.jpg",
+    "origin": "Bangladesh",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Left-arm Orthodox",
+    "battingStyle": "Left-hand Bat",
+    "price": 8500000
+  },
+  {
+    "id": 2,
+    "playerName": "Mustafizur Rahman",
+    "playerImg": "https://randomuser.me/api/portraits/men/2.jpg",
+    "origin": "Bangladesh",
+    "playerType": "Bowler",
+    "bowlingStyle": "Left-arm Fast Medium",
+    "battingStyle": "Left-hand Bat",
+    "price": 7000000
+  },
+  {
+    "id": 3,
+    "playerName": "Litton Das",
+    "playerImg": "https://randomuser.me/api/portraits/men/3.jpg",
+    "origin": "Bangladesh",
+    "playerType": "Wicketkeeper-Batsman",
+    "bowlingStyle": "Right-arm Medium",
+    "battingStyle": "Right-hand Bat",
+    "price": 6500000
+  },
+  {
+    "id": 4,
+    "playerName": "Mehidy Hasan Miraz",
+    "playerImg": "https://randomuser.me/api/portraits/men/4.jpg",
+    "origin": "Bangladesh",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Right-arm Off Break",
+    "battingStyle": "Right-hand Bat",
+    "price": 7500000
+  },
+  {
+    "id": 5,
+    "playerName": "Taskin Ahmed",
+    "playerImg": "https://randomuser.me/api/portraits/men/5.jpg",
+    "origin": "Bangladesh",
+    "playerType": "Bowler",
+    "bowlingStyle": "Right-arm Fast",
+    "battingStyle": "Right-hand Bat",
+    "price": 6000000
+  },
+  {
+    "id": 6,
+    "playerName": "Najmul Hossain Shanto",
+    "playerImg": "https://randomuser.me/api/portraits/men/6.jpg",
+    "origin": "Bangladesh",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm Medium",
+    "battingStyle": "Left-hand Bat",
+    "price": 5500000
+  },
+  {
+    "id": 7,
+    "playerName": "Tawhid Hridoy",
+    "playerImg": "https://randomuser.me/api/portraits/men/7.jpg",
+    "origin": "Bangladesh",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm Off Break",
+    "battingStyle": "Right-hand Bat",
+    "price": 4500000
+  },
+  {
+    "id": 8,
+    "playerName": "Rishad Hossain",
+    "playerImg": "https://randomuser.me/api/portraits/men/8.jpg",
+    "origin": "Bangladesh",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Right-arm Leg Break",
+    "battingStyle": "Right-hand Bat",
+    "price": 5000000
+  },
+  {
+    "id": 9,
+    "playerName": "Rohit Sharma",
+    "playerImg": "https://randomuser.me/api/portraits/men/9.jpg",
+    "origin": "India",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm Off Break",
+    "battingStyle": "Right-hand Bat",
+    "price": 9000000
+  },
+  {
+    "id": 10,
+    "playerName": "Virat Kohli",
+    "playerImg": "https://randomuser.me/api/portraits/men/10.jpg",
+    "origin": "India",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm Medium",
+    "battingStyle": "Right-hand Bat",
+    "price": 9500000
+  },
+  {
+    "id": 11,
+    "playerName": "Jasprit Bumrah",
+    "playerImg": "https://randomuser.me/api/portraits/men/11.jpg",
+    "origin": "India",
+    "playerType": "Bowler",
+    "bowlingStyle": "Right-arm Fast",
+    "battingStyle": "Right-hand Bat",
+    "price": 10000000
+  },
+  {
+    "id": 12,
+    "playerName": "Hardik Pandya",
+    "playerImg": "https://randomuser.me/api/portraits/men/12.jpg",
+    "origin": "India",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Right-arm Fast Medium",
+    "battingStyle": "Right-hand Bat",
+    "price": 8500000
+  },
+  {
+    "id": 13,
+    "playerName": "Ravindra Jadeja",
+    "playerImg": "https://randomuser.me/api/portraits/men/13.jpg",
+    "origin": "India",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Left-arm Orthodox",
+    "battingStyle": "Left-hand Bat",
+    "price": 8000000
+  },
+  {
+    "id": 14,
+    "playerName": "Kuldeep Yadav",
+    "playerImg": "https://randomuser.me/api/portraits/men/14.jpg",
+    "origin": "India",
+    "playerType": "Bowler",
+    "bowlingStyle": "Left-arm Wrist Spin",
+    "battingStyle": "Left-hand Bat",
+    "price": 6500000
+  },
+  {
+    "id": 15,
+    "playerName": "Suryakumar Yadav",
+    "playerImg": "https://randomuser.me/api/portraits/men/15.jpg",
+    "origin": "India",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm Medium",
+    "battingStyle": "Right-hand Bat",
+    "price": 7800000
+  },
+  {
+    "id": 16,
+    "playerName": "Babar Azam",
+    "playerImg": "https://randomuser.me/api/portraits/men/16.jpg",
+    "origin": "Pakistan",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm Off Break",
+    "battingStyle": "Right-hand Bat",
+    "price": 8500000
+  },
+  {
+    "id": 17,
+    "playerName": "Shaheen Afridi",
+    "playerImg": "https://randomuser.me/api/portraits/men/17.jpg",
+    "origin": "Pakistan",
+    "playerType": "Bowler",
+    "bowlingStyle": "Left-arm Fast",
+    "battingStyle": "Left-hand Bat",
+    "price": 9000000
+  },
+  {
+    "id": 18,
+    "playerName": "Mohammad Rizwan",
+    "playerImg": "https://randomuser.me/api/portraits/men/18.jpg",
+    "origin": "Pakistan",
+    "playerType": "Wicketkeeper-Batsman",
+    "bowlingStyle": "Right-arm Medium",
+    "battingStyle": "Right-hand Bat",
+    "price": 8200000
+  },
+  {
+    "id": 19,
+    "playerName": "Shadab Khan",
+    "playerImg": "https://randomuser.me/api/portraits/men/19.jpg",
+    "origin": "Pakistan",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Right-arm Leg Break",
+    "battingStyle": "Right-hand Bat",
+    "price": 7200000
+  },
+  {
+    "id": 20,
+    "playerName": "Haris Rauf",
+    "playerImg": "https://randomuser.me/api/portraits/men/20.jpg",
+    "origin": "Pakistan",
+    "playerType": "Bowler",
+    "bowlingStyle": "Right-arm Fast",
+    "battingStyle": "Right-hand Bat",
+    "price": 6800000
+  },
+  {
+    "id": 21,
+    "playerName": "Jos Buttler",
+    "playerImg": "https://randomuser.me/api/portraits/men/21.jpg",
+    "origin": "England",
+    "playerType": "Wicketkeeper-Batsman",
+    "bowlingStyle": "Right-arm Medium",
+    "battingStyle": "Right-hand Bat",
+    "price": 9500000
+  },
+  {
+    "id": 22,
+    "playerName": "Ben Stokes",
+    "playerImg": "https://randomuser.me/api/portraits/men/22.jpg",
+    "origin": "England",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Right-arm Fast Medium",
+    "battingStyle": "Left-hand Bat",
+    "price": 9200000
+  },
+  {
+    "id": 23,
+    "playerName": "Jofra Archer",
+    "playerImg": "https://randomuser.me/api/portraits/men/23.jpg",
+    "origin": "England",
+    "playerType": "Bowler",
+    "bowlingStyle": "Right-arm Fast",
+    "battingStyle": "Right-hand Bat",
+    "price": 8800000
+  },
+  {
+    "id": 24,
+    "playerName": "Liam Livingstone",
+    "playerImg": "https://randomuser.me/api/portraits/men/24.jpg",
+    "origin": "England",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Right-arm Leg Break",
+    "battingStyle": "Right-hand Bat",
+    "price": 7800000
+  },
+  {
+    "id": 25,
+    "playerName": "Travis Head",
+    "playerImg": "https://randomuser.me/api/portraits/men/25.jpg",
+    "origin": "Australia",
+    "playerType": "Batsman",
+    "bowlingStyle": "Left-arm Orthodox",
+    "battingStyle": "Left-hand Bat",
+    "price": 9000000
+  },
+  {
+    "id": 26,
+    "playerName": "Pat Cummins",
+    "playerImg": "https://randomuser.me/api/portraits/men/26.jpg",
+    "origin": "Australia",
+    "playerType": "Bowler",
+    "bowlingStyle": "Right-arm Fast",
+    "battingStyle": "Right-hand Bat",
+    "price": 9500000
+  },
+  {
+    "id": 27,
+    "playerName": "Glenn Maxwell",
+    "playerImg": "https://randomuser.me/api/portraits/men/27.jpg",
+    "origin": "Australia",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Right-arm Off Break",
+    "battingStyle": "Right-hand Bat",
+    "price": 8500000
+  },
+  {
+    "id": 28,
+    "playerName": "Mitchell Starc",
+    "playerImg": "https://randomuser.me/api/portraits/men/28.jpg",
+    "origin": "Australia",
+    "playerType": "Bowler",
+    "bowlingStyle": "Left-arm Fast",
+    "battingStyle": "Left-hand Bat",
+    "price": 9000000
+  },
+  {
+    "id": 29,
+    "playerName": "Kane Williamson",
+    "playerImg": "https://randomuser.me/api/portraits/men/29.jpg",
+    "origin": "New Zealand",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm Off Break",
+    "battingStyle": "Right-hand Bat",
+    "price": 8200000
+  },
+  {
+    "id": 30,
+    "playerName": "Trent Boult",
+    "playerImg": "https://randomuser.me/api/portraits/men/30.jpg",
+    "origin": "New Zealand",
+    "playerType": "Bowler",
+    "bowlingStyle": "Left-arm Fast Medium",
+    "battingStyle": "Left-hand Bat",
+    "price": 8000000
+  }
+]
