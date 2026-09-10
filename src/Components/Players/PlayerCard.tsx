@@ -2,8 +2,38 @@ import { FaRegUser, FaTrophy } from "react-icons/fa";
 import { MdSportsCricket } from "react-icons/md";
 
 import type { IPlayer } from "../../Types/PlayerType";
+import { useState, type Dispatch, type SetStateAction } from "react";
+import { toast } from "react-toastify";
 
-const PlayerCard = ({ player }: { player: IPlayer }) => {
+
+
+interface IPlayerCardProps{
+    player: IPlayer;
+    coin: number;
+    setCoin: Dispatch<SetStateAction<number>>
+}
+
+
+
+
+const PlayerCard = ({ player, coin, setCoin }: IPlayerCardProps) => {
+  const [isSelected, setIsSelected] = useState(false);
+  // console.log(isSelected, setIsSelected, "isSelected, setIsSelected");
+  // console.log(coin, setCoin, "form available players");
+
+const handleSelectPlayer =()=> {
+setIsSelected(true);
+
+const newCoinPrice = coin - player.price;
+if(newCoinPrice >= 0) {
+setCoin(newCoinPrice);
+toast.success(`${player.playerName} is purchased successfully`)
+}
+else{
+  toast.error("Coin is low")
+}
+
+}  
   return (
     <div className="group overflow-hidden rounded-2xl border border-base-200 bg-base-100 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
 
@@ -97,8 +127,10 @@ const PlayerCard = ({ player }: { player: IPlayer }) => {
             </h2>
           </div>
 
-          <button className="btn btn-primary rounded-xl px-5 shadow-md transition hover:scale-105">
-            Choose Player
+          <button onClick={handleSelectPlayer} className="btn btn-primary rounded-xl px-5 shadow-md transition hover:scale-105" //disabled = {isSelected ? true : false}
+          disabled = {isSelected}
+            >
+            {isSelected === true ? "Selected" : "Choose Player"}
           </button>
 
         </div>
