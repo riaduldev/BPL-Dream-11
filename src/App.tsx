@@ -5,7 +5,7 @@ import Nav from './Components/nav'
 import Players from './Components/Players/Players'
 import type { IPlayer } from './Types/PlayerType'
 
-const playersPromise = async ():Promise<IPlayer[]> => {
+const playersFetch = async ():Promise<IPlayer[]> => {
   const res = await fetch("/data.json")
   const data = await res.json();
   return data
@@ -16,6 +16,7 @@ const playersPromise = async ():Promise<IPlayer[]> => {
 
 function App() {
 // const playersPromise = playersFetch();
+const [playersPromise] = useState(() => playersFetch())
 const [coin, setCoin] = useState(500000000);
 
   return (
@@ -23,7 +24,7 @@ const [coin, setCoin] = useState(500000000);
       <Nav coin= {coin}></Nav>
       <Banner></Banner>
       <Suspense fallback = {<h2>Loading......</h2>}>
-        <Players coin= {coin} setCoin= {setCoin} playersPromise = {playersPromise()}></Players>
+        <Players coin= {coin} setCoin= {setCoin} playersPromise = {playersPromise}></Players>
       </Suspense>
     </>
   )
