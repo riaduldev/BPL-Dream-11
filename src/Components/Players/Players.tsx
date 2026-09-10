@@ -10,7 +10,12 @@ interface PlayersProp {
 }
 const Players = ({playersPromise, coin, setCoin}: PlayersProp) => {
     const players = use(playersPromise);
-    const [buttonType, setButtonType]=useState("available");
+
+    const [buttonType, setButtonType]=useState<"available" | "selected">("available");
+
+    const [selectedPlayers, setSelectedPlayers] = useState<IPlayer[]>([]);
+
+
     const handleUpdateType = (type: "available" | "selected") => {
         setButtonType(type)
     }
@@ -24,7 +29,7 @@ const Players = ({playersPromise, coin, setCoin}: PlayersProp) => {
             </div>
         </div>
 
-            { buttonType === "available" ?<AvailablePlayers coin= {coin} setCoin = {setCoin} players= {players}/>:<SelectedPlayers/>}
+            { buttonType === "available" ?<AvailablePlayers selectedPlayers= {selectedPlayers} setSelectedPlayers = {setSelectedPlayers} coin= {coin} setCoin = {setCoin} players= {players}/>:<SelectedPlayers selectedPlayers= {selectedPlayers} setSelectedPlayers = {setSelectedPlayers} coin= {coin} setCoin = {setCoin} />}
         </div>
     );
 };

@@ -10,13 +10,15 @@ import { toast } from "react-toastify";
 interface IPlayerCardProps{
     player: IPlayer;
     coin: number;
-    setCoin: Dispatch<SetStateAction<number>>
+    setCoin: Dispatch<SetStateAction<number>>;
+    selectedPlayers: IPlayer[];
+    setSelectedPlayers: Dispatch<SetStateAction<IPlayer[]>>
 }
 
 
 
 
-const PlayerCard = ({ player, coin, setCoin }: IPlayerCardProps) => {
+const PlayerCard = ({ player, coin, setCoin, selectedPlayers, setSelectedPlayers }: IPlayerCardProps) => {
   const [isSelected, setIsSelected] = useState(false);
   // console.log(isSelected, setIsSelected, "isSelected, setIsSelected");
   // console.log(coin, setCoin, "form available players");
@@ -32,6 +34,8 @@ toast.success(`${player.playerName} is purchased successfully`)
 else{
   toast.error("Coin is low")
 }
+//Selected players logic
+setSelectedPlayers([...selectedPlayers, player]);
 
 }  
   return (
