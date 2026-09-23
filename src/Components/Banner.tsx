@@ -2,9 +2,13 @@
 
 const Banner = () => {
     return (
-        <div className='min-h-[400px] bg-purple-300 my-7 flex justify-center items-center'>
-            <h2 className='font-bold text-7xl'>Banner</h2>
-        </div>
+       <div className="my-7 h-[180px] sm:h-[220px] md:h-[280px] w-full overflow-hidden rounded-xl">
+  <img
+    src="/banner.jpg"
+    alt="Banner"
+    className="h-full w-full object-cover"
+  />
+</div>
     );
 };
 

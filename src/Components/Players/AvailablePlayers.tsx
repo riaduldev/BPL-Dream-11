@@ -1,8 +1,6 @@
-import React, { type Dispatch, type SetStateAction } from 'react';
+import  { type Dispatch, type SetStateAction } from 'react';
 import type { IPlayer } from '../../Types/PlayerType';
-import { FaRegUser } from 'react-icons/fa';
 import PlayerCard from './PlayerCard';
-import type { StreamState } from 'http2';
 
 interface IAvailableProps{
     players: IPlayer[];

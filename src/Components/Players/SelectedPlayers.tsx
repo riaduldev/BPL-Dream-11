@@ -1,7 +1,5 @@
 import type { Dispatch, SetStateAction } from "react";
 import type { IPlayer } from "../../Types/PlayerType";
-import PlayerCard from "./PlayerCard";
-import { TbTrash } from "react-icons/tb";
 import SelectedPlayerCard from "./SelectedPlayerCard";
 
 
